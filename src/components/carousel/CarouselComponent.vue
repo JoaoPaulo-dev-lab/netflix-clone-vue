@@ -1,0 +1,80 @@
+<template>
+    <div class="min-w-[1200px] relative">
+        <div class="flex justify-between mr-6">
+            <div class="flex items-center font-semibold text-white text-2xl cursor-pointer">
+                {{ category }}
+            </div>
+        </div>
+        <Carousel ref="carousel" v-model="currentSlide" :items-to-show="8" :items-to-scroll="1" :wrap-around="true"
+            :transition="500" snapAlign="start" class="bg-transparent">
+            <Slide v-for="(slide, index) in movies" :key="slide.id"
+                class="flex items-center object-cover text-white bg-transparent">
+                <div @click="fullScreenVideo(index)" class="object-cover h-[100%] hover:brightness-125 cursor-pointer"
+                    :class="[
+                        currentSlide !== index ? 'border-4 border-transparent' : 'border-4 border-white',
+                        currentSlideObject(slide, index)
+                    ]">
+                    <img style="user-select: none" class="pointer-events-none h-[100%] z-[-1]"
+                        :src="`/images/${slide.name}.png`" :alt="slide.name">
+                </div>
+            </Slide>
+            <template #addons>
+                <Navigation />
+            </template>
+        </Carousel>
+    </div>
+</template>
+
+<script setup lang="ts">
+import { ref, toRefs, defineProps } from 'vue'
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Navigation } from 'vue3-carousel'
+import { useMovieStore } from '../../stores/movie'
+import { storeToRefs } from 'pinia'
+
+interface Movie {
+    id: number;
+    name: string;
+    title: string;
+    description: string
+}
+
+interface Props {
+    category: string;
+    movies: Movie[];
+}
+
+const useMovie = useMovieStore()
+const { movie, showFullVideos } = storeToRefs(useMovie)
+
+const currentSlide = ref(0)
+
+const props = defineProps<Props>()
+const { movies, category } = toRefs(props)
+
+// Atualizando o filme qquando o slide muda:
+const currentSlideObject = (slide: Movie, index: number): void => {
+    if (index === currentSlide.value) {
+        movie.value = slide
+    }
+}
+
+// Atualiza o slide e ativa o modo de tela cheia
+const fullScreenVideo = (index: number): void => {
+    currentSlide.value = index
+    setTimeout(() => {
+        if (showFullVideos.value !== undefined) {
+            showFullVideos.value = true
+        }
+    }, 500)
+}
+</script>
+
+<style>
+.carousel__prev,
+.carousel__next,
+.carousel__prev:hover,
+.carousel__next:hover {
+    color: white;
+}
+</style>
