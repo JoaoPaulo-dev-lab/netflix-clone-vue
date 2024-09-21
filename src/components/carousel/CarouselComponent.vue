@@ -16,7 +16,9 @@
                     ]">
                     <img style="user-select: none" class="pointer-events-none h-[100%] z-[-1]"
                         :src="`/images/${slide.name}.png`" :alt="slide.name">
+
                 </div>
+
             </Slide>
             <template #addons>
                 <Navigation />

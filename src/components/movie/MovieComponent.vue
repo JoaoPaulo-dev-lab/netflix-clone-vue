@@ -16,11 +16,10 @@
                 <span class="pl-4">{{ movie.genre.three }}</span>
             </div>
         </div>
-        <div class="text-2xl pt-6">{{ movie.description }}</div>
+        <div class="text-lg pt-6">{{ movie.description }}</div>
     </div>
 </template>
 
-<!-- Script -->
 <script lang="ts">
 import { defineComponent, type PropType } from 'vue';
 

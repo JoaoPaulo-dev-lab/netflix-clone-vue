@@ -37,24 +37,24 @@ onMounted(() => {
 <template>
   <div class="fixed w-full h-screen bg-black">
     <div v-if="!showFullVideos" id="SideNav" class="flex z-40 items-center w-[120px] h-screen bg-black relative">
-      <img class="absolute top-0 w-[35px] mt-10 ml-10" src="/images/netflix-logo.png" alt="Netflix Logo">
-      <div>
-        <div class="py-2 mx-10 my-6">
+      <img class="absolute top-0 w-[35px] mt-10 ml-10 pb-4" src="/images/netflix-logo.png" alt="Netflix Logo">
+      <div class="flex-col pt-14">
+        <div class=" mx-10 my-5">
           <Magnify fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class="py-2 mx-10 my-6 border-b-4 border-b-red-500">
+        <div class=" mx-10 my-5 border-b-4 border-b-red-500">
           <HomeOutline fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class="py-2 mx-10 my-6">
+        <div class=" mx-10 my-5">
           <TrendingUp fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class="py-2 mx-10 my-6">
+        <div class="mx-10 my-5">
           <Television fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class="py-2 mx-10 my-6">
+        <div class="mx-10 my-5">
           <MovieOutline fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class="py-2 mx-10 my-6">
+        <div class="mx-10 my-5">
           <Plus fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
       </div>
@@ -67,9 +67,10 @@ onMounted(() => {
         <video v-if="movie" :src="`/videos/${movie.name}.mp4`" autoplay loop
           class="absolute z-0 h-[600px] right-0 top-0" />
       </div>
-      <div class="fixed z-30 bottom-0 right-0 w-full h-[55%] pl-[120px] overflow-y-auto">
-        <div class="fixed z-30 bottom-0 right-0 w-full h-[55%] pl-[120px] overflow-y-auto">
+      <div>
+        <div class="fixed z-30 bottom-0 right-0 w-full h-[55%] pl-[120px] overflow-y-hidden">
           <CarouselComponent class="pb-14 pt-14" category="Popular Movies" :movies="movies[0]" />
+
         </div>
       </div>
       <div class="absolute z-20 h-[70%] left-[120px] w-[100%] right-0 bottom-0 bg-gradient-to-t from-black via-black" />
@@ -80,7 +81,7 @@ onMounted(() => {
         <ChevronLeft fillColor="#FFFFFF" :size="40" />
       </div>
       <video :src="`/videos/${movie?.name}.mp4`" autoplay loop controls
-        class="absolute z-0 w-[100vw] h-full object-fit" />
+        class="absolute z-0 w-[75%] h-[75%] object-fit" />
     </div>
   </div>
 </template>
