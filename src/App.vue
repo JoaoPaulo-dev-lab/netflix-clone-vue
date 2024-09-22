@@ -35,31 +35,74 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="fixed w-full h-screen bg-black">
-    <div v-if="!showFullVideos" id="SideNav" class="flex z-40 items-center w-[120px] h-screen bg-black relative">
+  <div class="w-full h-screen bg-black">
+    <header class="flex items-center w-full py-2 px-14 justify-between text-white">
+      <div class="flex items-center gap-x-12">
+        <div >
+          <img class="max-w-24" src="../public/Netflix-Logo.png" alt="">
+        </div>
+        <div class="flex gap-x-4">
+          <li class="list-none">
+           <a href="" class="no-underline font-semibold text-slate-300 text-[15px]">Início</a>
+          </li>
+          <li class="list-none">
+           <a href="" class="no-underline font-semibold text-slate-300 text-[15px]">Séries</a>
+          </li>
+          <li class="list-none">
+           <a href="" class="no-underline font-semibold text-slate-300 text-[15px]">Filmes</a>
+          </li>
+          <li class="list-none">
+           <a href="" class="no-underline font-semibold text-slate-300 text-[15px]">Bombando</a>
+          </li>
+          <li class="list-none">
+           <a href="" class="no-underline font-semibold text-slate-300 text-[15px]">Minha lista</a>
+          </li>
+          <li class="list-none">
+           <a href="" class="no-underline font-semibold text-slate-300 text-[15px]">Navegar por idiomas</a>
+          </li>
+        </div>
+      </div>
+      <div class="flex items-center gap-x-5">
+        <div>
+          <Magnify class="cursor-pointer"/>
+        </div>
+        <div>
+          <a href="" class="font-semibold text-slate-300 text-[15px] no-underline">
+            Infantil
+          </a>
+        </div>
+        <div>
+          C
+        </div>
+        <div>
+          D
+        </div>
+      </div>
+    </header>
+    <!-- <div v-if="!showFullVideos" id="SideNav" class="flex z-40 items-center w-[120px] h-screen bg-black relative">
       <img class="absolute top-0 w-[35px] mt-10 ml-10 pb-4" src="/images/netflix-logo.png" alt="Netflix Logo">
-      <div class="flex-col pt-14">
-        <div class=" mx-10 my-5">
+      <div class="flex flex-col w-[150px] gap-y-[5vh] pt-14">
+        <div class=" mx-10">
           <Magnify fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class=" mx-10 my-5 border-b-4 border-b-red-500">
+        <div class=" mx-10 border-b-4 border-b-red-500">
           <HomeOutline fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class=" mx-10 my-5">
+        <div class=" mx-10">
           <TrendingUp fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class="mx-10 my-5">
+        <div class="mx-10">
           <Television fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class="mx-10 my-5">
+        <div class="mx-10">
           <MovieOutline fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
-        <div class="mx-10 my-5">
+        <div class="mx-10">
           <Plus fillColor="#FFFFFF" :size="40" class="cursor-pointer" />
         </div>
       </div>
-    </div>
-    <div v-if="!showFullVideos">
+    </div> -->
+    <!-- <div v-if="!showFullVideos">
       <div class="fixed flex z-20 top-0 right-0 w-full h-[50%] bg-black pl-[120px] bg-clip-border">
         <div class="absolute z-30 h-[600px] left-[120px] w-[77%] right-0 top-0 bg-gradient-to-r from-black via-black" />
 
@@ -74,14 +117,14 @@ onMounted(() => {
         </div>
       </div>
       <div class="absolute z-20 h-[70%] left-[120px] w-[100%] right-0 bottom-0 bg-gradient-to-t from-black via-black" />
-    </div>
-    <div v-if="showFullVideos">
+    </div> -->
+    <!-- <div v-if="showFullVideos">
       <div @click="showFullVideos = false"
         class="absolute z-50 p-2 m-4 bg-white bg-opacity-50 rounded-full cursor-pointer">
         <ChevronLeft fillColor="#FFFFFF" :size="40" />
       </div>
       <video :src="`/videos/${movie?.name}.mp4`" autoplay loop controls
         class="absolute z-0 w-[75%] h-[75%] object-fit" />
-    </div>
+    </div> -->
   </div>
 </template>
