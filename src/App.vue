@@ -20,7 +20,8 @@ interface MovieDetails {
   name: string;
   id: number;
   title: string;
-  description: string
+  description: string;
+  imageURL?: string
 }
 
 const useMovie = useMovieStore();

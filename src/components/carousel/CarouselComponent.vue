@@ -14,8 +14,8 @@
                         currentSlide !== index ? 'border-4 border-transparent' : 'border-4 border-white',
                         currentSlideObject(slide, index)
                     ]">
-                    <img style="user-select: none" class="pointer-events-none h-[100%] z-[-1]"
-                        :src="`/images/${slide.name}.png`" :alt="slide.name">
+                    <img style="user-select: none" class="pointer-events-none h-[100%] z-[-1]" :src="slide.imageURL"
+                        :alt="slide.name">
 
                 </div>
 
@@ -39,6 +39,7 @@ interface Movie {
     name: string;
     title: string;
     description: string
+    imageURL?: string
 }
 
 interface Props {

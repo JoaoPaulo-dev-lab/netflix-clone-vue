@@ -4,6 +4,7 @@
       "name": "Aftersun",
       "description": "Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories real and imagined fill the gaps between as she tries to reconcile the father she knew with the man she didn't...",
       "year": "2022",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FAftersun.png?alt=media&token=fe696b8a-0afe-439e-9920-ce967a80dcbd",
       "genre": {
         "one": "Drama",
         "two": "Story",
@@ -14,6 +15,7 @@
       "name": "All Quiet on the Western Front",
       "description": "A young German soldier's terrifying experiences and distress on the western front during World War I.",
       "year": "2022",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FAll%20Quiet%20on%20the%20Western%20Front.png?alt=media&token=10de0756-ab17-468c-8aad-1854570dea6c",
       "genre": {
         "one": "Action",
         "two": "Drama",
@@ -24,6 +26,7 @@
       "name": "Avatar The Way of Water",
       "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
       "year": "2022",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FAvatar%20The%20Way%20of%20Water.png?alt=media&token=1067ca42-8312-4cc4-9ec6-0c98861feabd",
       "genre": {
         "one": "Action",
         "two": "Adventure",
@@ -34,6 +37,7 @@
       "name": "Bullet Train",
       "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.",
       "year": "2022",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FBullet%20Train.png?alt=media&token=8b17dc25-ed79-4b99-9a76-a50bb4388e92",
       "genre": {
         "one": "Action",
         "two": "Comedy",
@@ -44,6 +48,7 @@
       "name": "Decision to Leave",
       "description": "A detective investigating a man's death in the mountains meets the dead man's mysterious wife in the course of his dogged sleuthing.",
       "year": "2022",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FDecision%20to%20Leave.png?alt=media&token=d4ff5369-d30e-4ba7-b5cf-e3425cb5559b",
       "genre": {
         "one": "Crime",
         "two": "Drama",
@@ -54,6 +59,7 @@
       "name": "Emily the Criminal",
       "description": "Down on her luck and saddled with debt, Emily gets involved in a credit card scam that pulls her into the criminal underworld of Los Angeles, ultimately leading to deadly consequences.",
       "year": "2022",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FEmily%20the%20Criminal.png?alt=media&token=0691c4cc-8817-41d8-a4f6-03715b939eb8",
       "genre": {
         "one": "Crime",
         "two": "Drama",
@@ -64,6 +70,7 @@
       "name": "The Batman",
       "description": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
       "year": "2022",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FThe%20Batman.png?alt=media&token=f399e2a4-a024-4359-89ee-6d41bf69dee9",
       "genre": {
         "one": "Action",
         "two": "Crime",
