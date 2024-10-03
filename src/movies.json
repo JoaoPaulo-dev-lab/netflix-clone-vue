@@ -4,6 +4,7 @@
       "name": "Aftersun",
       "description": "Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories real and imagined fill the gaps between as she tries to reconcile the father she knew with the man she didn't...",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FAftersun.mp4?alt=media&token=a9a81788-eecd-4eb2-b5b9-ff9c910f2b6b",
       "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FAftersun.png?alt=media&token=fe696b8a-0afe-439e-9920-ce967a80dcbd",
       "genre": {
         "one": "Drama",
@@ -15,6 +16,7 @@
       "name": "All Quiet on the Western Front",
       "description": "A young German soldier's terrifying experiences and distress on the western front during World War I.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FAll%20Quiet%20on%20the%20Western%20Front.mp4?alt=media&token=fb893e9f-1f7a-4865-bed4-ad777f4ac460",
       "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FAll%20Quiet%20on%20the%20Western%20Front.png?alt=media&token=10de0756-ab17-468c-8aad-1854570dea6c",
       "genre": {
         "one": "Action",
@@ -26,6 +28,7 @@
       "name": "Avatar The Way of Water",
       "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FAvatar%20The%20Way%20of%20Water.mp4?alt=media&token=9f71a0fa-c2da-4341-a09c-e7a4bd15549f",
       "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FAvatar%20The%20Way%20of%20Water.png?alt=media&token=1067ca42-8312-4cc4-9ec6-0c98861feabd",
       "genre": {
         "one": "Action",
@@ -37,6 +40,7 @@
       "name": "Bullet Train",
       "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FBullet%20Train.mp4?alt=media&token=33a5c20c-3505-4f15-a765-3b1ad172edff",
       "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FBullet%20Train.png?alt=media&token=8b17dc25-ed79-4b99-9a76-a50bb4388e92",
       "genre": {
         "one": "Action",
@@ -48,6 +52,7 @@
       "name": "Decision to Leave",
       "description": "A detective investigating a man's death in the mountains meets the dead man's mysterious wife in the course of his dogged sleuthing.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FDecision%20to%20Leave.mp4?alt=media&token=dcfe788e-37d3-4314-8c64-2a83017da5e4",
       "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FDecision%20to%20Leave.png?alt=media&token=d4ff5369-d30e-4ba7-b5cf-e3425cb5559b",
       "genre": {
         "one": "Crime",
@@ -59,6 +64,7 @@
       "name": "Emily the Criminal",
       "description": "Down on her luck and saddled with debt, Emily gets involved in a credit card scam that pulls her into the criminal underworld of Los Angeles, ultimately leading to deadly consequences.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FEmily%20the%20Criminal.mp4?alt=media&token=e2e7775f-8dc0-4fed-b966-5f16591e5264",
       "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FEmily%20the%20Criminal.png?alt=media&token=0691c4cc-8817-41d8-a4f6-03715b939eb8",
       "genre": {
         "one": "Crime",
@@ -70,6 +76,7 @@
       "name": "The Batman",
       "description": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FThe%20Batman.mp4?alt=media&token=e3394b1a-e536-4d45-aebe-b1c28aaec3ab",
       "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FThe%20Batman.png?alt=media&token=f399e2a4-a024-4359-89ee-6d41bf69dee9",
       "genre": {
         "one": "Action",
@@ -81,6 +88,8 @@
       "name": "The Black Phone",
       "description": "After being abducted by a child killer and locked in a soundproof basement, a 13-year-old boy starts receiving calls on a disconnected phone from the killer's previous victims.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FThe%20Black%20Phone.mp4?alt=media&token=789f19a8-aff8-4e8f-93e2-27db0b0a4c71",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FThe%20Black%20Phone.png?alt=media&token=e9e5779b-d647-4c0b-9013-bb5fb46213cd",
       "genre": {
         "one": "Horror",
         "two": "Thriller",
@@ -91,6 +100,8 @@
       "name": "The Girl on a Bulldozer",
       "description": "She lives with her father and a sibling. One day, her father has a mysterious accident, forces her to look after her younger sibling, the restaurant, and an investigator to find the truth about the accident.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FThe%20Girl%20on%20a%20Bulldozer.mp4?alt=media&token=18e3dbcf-2051-4434-8840-2f8f67cbc071",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FThe%20Girl%20on%20a%20Bulldozer.png?alt=media&token=454b274c-bf71-47c0-9fc7-56d83f3db45d",
       "genre": {
         "one": "Drama",
         "two": "Mystery",
@@ -101,6 +112,8 @@
       "name": "The Menu",
       "description": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FThe%20Menu.mp4?alt=media&token=dff3e5f0-02d5-42c2-a854-0b5e9495d21a",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FThe%20Menu.png?alt=media&token=49bf9906-e28b-4b18-8602-adae80e0cfa7",
       "genre": {
         "one": "Horror",
         "two": "Thriller",
@@ -111,6 +124,8 @@
       "name": "The Quiet Girl",
       "description": "Rural Ireland 1981. A quiet, neglected girl is sent away from her dysfunctional family to live with foster parents for the summer. She blossoms in their care, but in this house where there are meant to be no secrets, she discovers one.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FThe%20Quiet%20Girl.mp4?alt=media&token=f348b80c-e399-46a9-aa0b-7f13d35011db",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FThe%20Quiet%20Girl.png?alt=media&token=df7a9f93-5c93-4bc1-bd99-a32a6425d705",
       "genre": {
         "one": "Drama",
         "two": "Thriller",
@@ -121,6 +136,8 @@
       "name": "Top Gun Maverick",
       "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FTop%20Gun%20Maverick.mp4?alt=media&token=4ccf7f5c-fe5f-488d-9ace-7c1d90ca224f",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FTop%20Gun%20Maverick.png?alt=media&token=03c429d9-edc1-4cf1-a842-de4c6b7ad7d4",
       "genre": {
         "one": "Action",
         "two": "Thriller",
@@ -131,6 +148,8 @@
       "name": "Werewolf by Night",
       "description": "Follows a lycanthrope superhero who fights evil using the abilities given to him by a curse brought on by his bloodline.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FWerewolf%20by%20Night.mp4?alt=media&token=6175e01e-770c-4ccc-a906-14169229c222",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FWerewolf%20by%20Night.png?alt=media&token=7aa56994-25b5-46e3-afd7-14b0c0a2c6bd",
       "genre": {
         "one": "Action",
         "two": "Thriller",
@@ -141,6 +160,8 @@
       "name": "X",
       "description": "In 1979, a group of young filmmakers set out to make an adult film in rural Texas, but when their reclusive, elderly hosts catch them in the act, the cast find themselves fighting for their lives.",
       "year": "2022",
+      "videoURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fvideos%2FX.mp4?alt=media&token=4cfbd4ec-4180-40a6-8e4f-b711d325d2a8",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/my-portfolio-dev-a4a9c.appspot.com/o/netflix%2Fimages%2FX.png?alt=media&token=b70403b3-a479-4c80-af6b-f044428fe7e9",
       "genre": {
         "one": "Horror",
         "two": "Mystery",

@@ -22,25 +22,13 @@
 
 <script lang="ts">
 import { defineComponent, type PropType } from 'vue';
-
-interface MovieGenre {
-    one: string;
-    two: string;
-    three: string;
-}
-
-interface Movie {
-    name: string;
-    year: number;
-    genre: MovieGenre;
-    description: string;
-}
+import type { MovieDetails } from '../interfaces/interfaces'
 
 export default defineComponent({
     name: 'MovieComponent',
     props: {
         movie: {
-            type: Object as PropType<Movie>,
+            type: Object as PropType<MovieDetails>,
             required: true,
         },
     },

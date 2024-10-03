@@ -7,7 +7,7 @@
         </div>
         <Carousel ref="carousel" v-model="currentSlide" :items-to-show="8" :items-to-scroll="1" :wrap-around="true"
             :transition="500" snapAlign="start" class="bg-transparent">
-            <Slide v-for="(slide, index) in movies" :key="slide.id"
+            <Slide v-for="(slide, index) in movies" :key="slide.videoURL"
                 class="flex items-center object-cover text-white bg-transparent">
                 <div @click="fullScreenVideo(index)" class="object-cover h-[100%] hover:brightness-125 cursor-pointer"
                     :class="[
@@ -33,18 +33,11 @@ import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Navigation } from 'vue3-carousel'
 import { useMovieStore } from '../../stores/movie'
 import { storeToRefs } from 'pinia'
-
-interface Movie {
-    id: number;
-    name: string;
-    title: string;
-    description: string
-    imageURL?: string
-}
+import type { MovieDetails } from '../interfaces/interfaces'
 
 interface Props {
     category: string;
-    movies: Movie[];
+    movies: MovieDetails[];
 }
 
 const useMovie = useMovieStore()
@@ -56,7 +49,7 @@ const props = defineProps<Props>()
 const { movies, category } = toRefs(props)
 
 // Atualizando o filme qquando o slide muda:
-const currentSlideObject = (slide: Movie, index: number): void => {
+const currentSlideObject = (slide: MovieDetails, index: number): void => {
     if (index === currentSlide.value) {
         movie.value = slide
     }

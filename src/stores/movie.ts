@@ -1,15 +1,5 @@
 import { defineStore } from 'pinia'
-
-interface MovieState {
-  movie: Movie | null
-  showFullVideos: boolean
-}
-
-interface Movie {
-  id: number
-  title: string
-  description: string
-}
+import type { MovieState } from '@/components/interfaces/interfaces'
 
 // Usar o `defineStore` com tipagem explícita do estado
 export const useMovieStore = defineStore<'movie', MovieState>({
