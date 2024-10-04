@@ -24,7 +24,6 @@
                 </button>
                 <button
                     class="flex items-center justify-center gap-2 bg-gray-500/70 hover:bg-gray-500/50 text-white font-semibold px-8 py-3 rounded">
-    
                     Mais informações
                 </button>
             </div>
