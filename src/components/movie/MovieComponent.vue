@@ -24,12 +24,10 @@
                 </button>
                 <button
                     class="flex items-center justify-center gap-2 bg-gray-500/70 hover:bg-gray-500/50 text-white font-semibold px-8 py-3 rounded">
-                    <span class="material-icons">info</span>
+    
                     Mais informações
                 </button>
             </div>
-
-            <!-- Classificação etária -->
             <div class="absolute right-0 top-full mt-4 bg-[#33333399] text-white px-2 py-1 text-sm">
                 14
             </div>
