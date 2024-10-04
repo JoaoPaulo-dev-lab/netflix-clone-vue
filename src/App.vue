@@ -26,21 +26,17 @@ onMounted(() => {
   <div class="w-full h-screen bg-black">
     <HeaderComponent />
     <div v-if="!showFullVideos" class="">
-      <div class="fixed flex z-20  right-0 w-full h-[50%] bg-black pl-[120px] bg-clip-border">
-        <div class="absolute z-30 h-[600px] left-[120px] w-[77%] right-0 " />
-
-        <MovieComponent v-if="movie" :movie="movie" />
-        <video v-if="movie" autoplay loop class="absolute z-0 w-full h-screen right-0 top-0" />
-      </div>
+      <MovieComponent v-if="movie" :movie="movie" />
+    </div>
+    <!--
       <div>
         <div class="fixed z-30 bottom-0 right-0 w-full h-[55%] pl-[120px] overflow-y-hidden">
           <CarouselComponent class="pb-14 pt-14" category="Popular Movies" :movies="movies[0]" />
 
         </div>
       </div>
-
-      <!-- <div class="absolute z-20 h-[70%] left-[120px] w-[100%] right-0 bottom-0" /> -->
-    </div>
+      -->
+    <!-- <div class="absolute z-20 h-[70%] left-[120px] w-[100%] right-0 bottom-0" /> -->
     <!-- <div v-if="showFullVideos">
       <div @click="showFullVideos = false"
         class="absolute z-50 p-2 m-4 bg-white bg-opacity-50 rounded-full cursor-pointer">
