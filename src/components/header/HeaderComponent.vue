@@ -1,5 +1,5 @@
 <template>
-    <header class="flex items-center w-full py-2 px-14 bg-black justify-between text-white">
+    <header class="flex fixed z-[999999] items-center w-full py-2 px-14 bg-black justify-between text-white">
         <div class="flex items-center gap-x-12">
             <div>
                 <img class="max-w-24" src="../../../public/Netflix-Logo.png" alt="">

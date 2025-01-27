@@ -29,7 +29,7 @@ onMounted(() => {
       <MovieComponent v-if="movie" :movie="movie" />
     </div>
 
-    <div class="relative bottom-0 right-0 w-full h-[55%] -mt-64 pl-[60px] overflow-y-hidden">
+    <div class="relative bottom-0 right-0 w-full h-[55%] -mt-64 overflow-y-hidden">
       <CarouselComponent class="pb-14 pt-14" category="Popular Movies" :movies="movies[0]" />
 
     </div>
